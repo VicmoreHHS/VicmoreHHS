@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Dropdown */}
         {mobileMenuIsOpen && (
-          <div className="md:hidden py-4 space-y-3 backdrop-blur-lg border-t animate-in slide-in-from-top duration-300 border-[#212529] w-full flex justify-end">
+          <div className="md:hidden py-4 space-y-3 backdrop-blur-lg border-t animate-in slide-in-from-top duration-300 border-[#212529]">
             <Link
               to="/"
               className="block text-[#212529] hover:text-[#9DC0EB] text-sm py-2 font-roboto"
