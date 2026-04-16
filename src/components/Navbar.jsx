@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-[#F8F9FA]/70 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 md:pt-4 sm:pt-6">
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20">
-          {/* Logo - Use Link for internal navigation */}
+          {/* Logo */}
           <Link
             to="/"
             className="flex items-center space-x-1 group cursor-pointer"
@@ -61,10 +61,12 @@ const Navbar = () => {
             )}
           </button>
         </div>
+      </div>
 
-        {/* Mobile Menu Dropdown */}
-        {mobileMenuIsOpen && (
-          <div className="md:hidden py-4 space-y-3 backdrop-blur-lg border-t animate-in slide-in-from-top duration-300 border-[#212529] w-full">
+      {/* Mobile Menu Dropdown*/}
+      {mobileMenuIsOpen && (
+        <div className="md:hidden w-full bg-[#F8F9FA]/95 backdrop-blur-lg border-t border-[#212529] animate-in slide-in-from-top duration-300">
+          <div className="px-4 py-4 space-y-3">
             <Link
               to="/"
               className="block text-[#212529] hover:text-[#9DC0EB] text-sm py-2 font-roboto"
@@ -94,8 +96,8 @@ const Navbar = () => {
               Contact Us
             </a>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </nav>
   );
 };
