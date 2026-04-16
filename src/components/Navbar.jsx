@@ -51,7 +51,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-[#212529] hover:text-[#9DC0EB] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#9DC0EB] w-full flex justify-end"
+            className="md:hidden p-2 text-[#212529] hover:text-[#9DC0EB] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#9DC0EB]"
             onClick={() => setMobileMenuIsOpen((prev) => !prev)}
           >
             {mobileMenuIsOpen ? (
@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Dropdown */}
         {mobileMenuIsOpen && (
-          <div className="md:hidden py-4 space-y-3 backdrop-blur-lg border-t animate-in slide-in-from-top duration-300 border-[#212529]">
+          <div className="md:hidden py-4 space-y-3 backdrop-blur-lg border-t animate-in slide-in-from-top duration-300 border-[#212529] w-full">
             <Link
               to="/"
               className="block text-[#212529] hover:text-[#9DC0EB] text-sm py-2 font-roboto"
