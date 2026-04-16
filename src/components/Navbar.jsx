@@ -15,7 +15,7 @@ const Navbar = () => {
             className="flex items-center space-x-1 group cursor-pointer"
           >
             <img
-              src="/vicmore-logo.svg"
+              src="/VicmoreHHS/vicmore-logo.svg"
               alt="Vicmore Logo"
               className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24"
             />
@@ -51,7 +51,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-[#212529] hover:text-[#9DC0EB] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#9DC0EB]"
+            className="md:hidden text-[#212529] hover:text-[#9DC0EB] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#9DC0EB] w-full flex justify-end"
             onClick={() => setMobileMenuIsOpen((prev) => !prev)}
           >
             {mobileMenuIsOpen ? (
@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Dropdown */}
         {mobileMenuIsOpen && (
-          <div className="md:hidden py-4 space-y-3 backdrop-blur-lg border-t animate-in slide-in-from-top duration-300 border-[#212529]">
+          <div className="md:hidden py-4 space-y-3 backdrop-blur-lg border-t animate-in slide-in-from-top duration-300 border-[#212529] w-full flex justify-end">
             <Link
               to="/"
               className="block text-[#212529] hover:text-[#9DC0EB] text-sm py-2 font-roboto"

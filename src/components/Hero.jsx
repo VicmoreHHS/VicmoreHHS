@@ -40,14 +40,14 @@ export default function Hero() {
                 {/* Desktop Hero Image */}
                 <img
                   className="hidden lg:block w-96 h-96 sm:w-[48rem] sm:h-[48rem]"
-                  src="/hero-image.png"
+                  src="/VicmoreHHS/hero-image.png"
                   alt="Aid helping patient"
                 />
 
                 {/* Mobile Hero Image */}
                 <img
                   className="block lg:hidden w-96 h-96 "
-                  src="/hero-image-mobile.png"
+                  src="/VicmoreHHS/hero-image-mobile.png"
                   alt="Aid helping patient"
                 />
               </div>

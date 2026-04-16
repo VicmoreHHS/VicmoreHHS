@@ -17,7 +17,7 @@ const Footer = () => {
           <div>
             <div className="flex space-x-4 scale-60">
               <img
-                src="/texas-health-and-human-services.png"
+                src="/VicmoreHHS/texas-health-and-human-services.png"
                 alt="Texas Health and Human Services Logo"
               />
             </div>
