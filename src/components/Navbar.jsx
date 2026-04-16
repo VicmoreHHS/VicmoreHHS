@@ -65,7 +65,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown*/}
       {mobileMenuIsOpen && (
-        <div className="md:hidden w-full bg-[#F8F9FA]/70 backdrop-blur-lg border-t border-[#212529] animate-in slide-in-from-top duration-300">
+        <div className="md:hidden w-full bg-[#F8F9FA]/70 backdrop-blur-md border-t border-[#212529] animate-in slide-in-from-top duration-300">
           <div className="px-4 py-4 space-y-3">
             <Link
               to="/"
