@@ -8,7 +8,7 @@ import Resources from "./Resources.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/VicmoreHHS">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about-us" element={<AboutUs />} />
